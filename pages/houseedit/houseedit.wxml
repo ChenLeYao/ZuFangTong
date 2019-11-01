@@ -1,0 +1,105 @@
+<view>
+  <view class="house-list">
+    <view class="house-listitem">
+      <view class="owner-container">
+        <swiper duration="200" bindchange="currentHandle" indicator-dots="true" current="{{PictureIndexSwiper}}" bindanimationfinish="ChangeIndex"> 
+          <block wx:for-index="index" wx:for="{{ScrollData}}" wx:for-key="item">
+            <swiper-item>
+                <view>
+                  <image src="{{item}}" data-index="{{index}}" bindtap="UploadPicture"></image>
+                </view>
+              </swiper-item>
+          </block>
+        </swiper>
+      </view>
+      <view class="swiper-thumber-wrap">
+        <scroll-view scroll-x="true" bindscroll="scrollevent" style="height:60px;overflow:hidden;white-space:nowrap;">
+          <block wx:for="{{ ScrollData }}" wx:for-index='index' wx:for-item="item">
+            <view id="demo1" class="scroll-view-item demo-text-1 {{ PictureIndex == index ? 'active' : ''}}" >
+              <image  src="{{item}}" data-index="{{index}}" bindtap="pictureChange"></image>
+            </view>
+          </block>
+        </scroll-view>
+      </view>
+    </view>
+    <view class="house-rent">
+      <view class="house-rentitem">
+        <h4>民宿
+          <input type='checkbox' id="checkbox1"></input>
+          <label for="checkbox1"></label>
+        </h4>
+        <p>
+          <label>价格</label>
+          <span style="text-align: right;">
+            <input type="text" style="width:100%;" placeholder="请输入价格/天"></input>
+          </span>
+        </p>
+      </view>
+      <view class="house-rentitem">
+        <h4>长租
+          <input type='checkbox' id="checkbox2" checked="checked" />
+          <label for="checkbox2"></label>
+        </h4>
+        <p>
+          <label>价格</label>
+          <view style="text-align: right;">
+            <input type="text" style="width:100%;" placeholder="请输入价格/月"></input>
+    
+          </view>
+        </p>
+        <p style="line-height:10px;height:20px;">
+          <span style="height:20px;line-height:20px;">租期</span>
+          <span style="height:20px;line-height:8px;">押
+            <view style="text-align:right;min-width:50px;margin-right:0;">
+              <picker mode="selector" style="height:20px;" bindchange="bindChange" value="{{index}}" range="{{Mounths}}">
+                <text>
+                  {{Mounths[index]}}
+                </text>
+              </picker>
+            </view>
+           付
+            <view style="text-align:right;min-width:50px;margin-right:0;">
+              <picker mode="selector" style="height:20px;" bindchange="bindChange" value="{{index}}" range="{{Mounths}}">
+                <text>
+                  {{Mounths[index]}}
+                </text>
+              </picker>
+            </view>
+          </span>
+        </p>
+      </view>
+
+      <view class="house-rentitem">
+        <h4>编辑详情</h4>
+        <p>
+          <label>状态</label>
+          <span style="text-align: right;color: #FF1D1D;">
+            已出租
+          </span>
+        </p>
+        <p>
+          <label>地址</label>
+          <span style="width:400px;">
+            <span>
+              <input type="text" style="width:400px;" value="黑龙江省南岗区中山路290号白毛小区222楼"></input>
+            </span>
+          </span>
+        </p>
+        <p>
+          <label>描述</label>
+          <span style=" text-align: left;height:150px;width: 260px;">
+            <textarea style="width: 100%;height:100px;">
+              包物业宽带费，超值房源.小区环境好，安全系数有保障，24有保安值守，家具家电齐全，可拎包入住。床电脑桌衣柜空调热水器洗衣机宽带网络。不能养宠物，有厨房可以做饭。
+            </textarea>
+          </span>
+        </p>
+      </view>
+
+    </view>
+  </view>
+</view>
+<view class="submit-button2">
+  <view bindtap="Buttonsubmit">
+    提交
+  </view>
+</view>

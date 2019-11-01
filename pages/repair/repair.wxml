@@ -1,0 +1,40 @@
+<view>
+			
+			<view class="household-list">
+				<view class="household-item">
+					<h4>报修人 小明</h4>
+					<p>联系方式 ： <span>18814925684</span></p>
+					<p>房间信息 ： <span>黑龙江省南岗区中山路290号三单元201</span></p>
+					<p>报修状态 ： <span class="household-runt">已维修</span></p>
+					<view class="household-itemcontent">
+						<p>报修内容 ：</p>
+						<p>水龙头一直漏水，造成大量的水浪费，请及时维修,龙头一直漏水，造成大量的水浪费，请及时维修龙头一直漏水，造成大量的水浪费，请及时维修</p>
+					</view>
+					
+				</view>
+				
+				<view class="household-item">
+					<h4>报修人 小明</h4>
+					<p>联系方式 ： <span>18814925684</span></p>
+					<p>房间信息 ： <span>黑龙江省南岗区中山路290号三单元201</span></p>
+					<p>报修状态 ： <span class="household-runt">已维修</span></p>
+					<view class="household-itemcontent">
+						<p>报修内容 ：</p>
+						<p>水龙头一直漏水，造成大量的水浪费，请及时维修,龙头一直漏水，造成大量的水浪费，请及时维修龙头一直漏水，造成大量的水浪费，请及时维修</p>
+					</view>
+					
+				</view>
+				
+				<view class="household-item">
+					<h4>报修人 小明</h4>
+					<p>联系方式 ： <span>18814925684</span></p>
+					<p>房间信息 ： <span>黑龙江省南岗区中山路290号三单元201</span></p>
+					<p>报修状态 ： <span class="household-runt">已维修</span></p>
+					<view class="household-itemcontent">
+						<p>报修内容 ：</p>
+						<p>水龙头一直漏水，造成大量的水浪费，请及时维修,龙头一直漏水，造成大量的水浪费，请及时维修龙头一直漏水，造成大量的水浪费，请及时维修</p>
+					</view>
+					
+				</view>
+			</view>
+		</view>

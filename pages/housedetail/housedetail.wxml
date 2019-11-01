@@ -1,0 +1,73 @@
+<view class="housedetail">
+		<view class="owner-container" >
+			<swiper duration="200"  bindchange="currentHandle" >
+        <swiper-item >
+          <view >
+             <image src="../../img/main/banner2.jpg"></image>
+          </view>
+        </swiper-item>
+        <swiper-item >
+          <view >
+             <image src="../../img/main/banner2.jpg"></image>
+          </view>
+        </swiper-item>
+        <swiper-item >
+          <view >
+             <image src="../../img/main/banner2.jpg"></image>
+          </view>
+        </swiper-item>
+     
+    </swiper>
+		</view>		
+			<view class="house-detail">
+				<view class="house-detailpart">
+					<h3><span class="tags-title tag">长租</span>
+						黑龙江省南岗区中山路290号三居室出租
+					</h3>
+					<h2>￥4000<span> 月<i>( 押一付一 )</i></span></h2>
+				</view>
+				
+				
+				<view class="house-detailpart">
+					<h3>
+						房源介绍
+					</h3>
+					<p>
+						描述 : 包物业宽带费，超值房源
+						小区环境好，安全系数有保障，24有保安值守，家具家电齐全，可拎包入住。床电脑桌衣柜空调热水器洗衣机宽带网络。不能养宠物，有厨房可以做饭。就在附近上班要看房提前打电话。
+					</p>
+				</view>
+				
+				<view class="house-detailpart">
+					<h3>
+						房东信息
+					</h3>
+					<ul class='renter-info'>
+						<li>
+							<span>姓名</span>
+							<span>小明</span>
+						</li>
+						<li>
+							<span>电话</span>
+							<span>18814515448</span>
+						</li>
+					</ul>
+				</view>
+				
+				<view class="house-detailpart">
+					<h3>
+						房源位置
+					</h3>
+					<p>
+						黑龙江省南岗区中山路290号白毛小区222楼三单元201
+					</p>
+				</view>
+			</view>
+			
+		</view>
+		
+		<view class="public-button-x">
+      <navigator url="../mysphere/mysphere">
+			    <a  class="button">去租房</a>
+      </navigator>
+		</view>

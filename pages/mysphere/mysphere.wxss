@@ -1,0 +1,29 @@
+@import '../../public/public.wxss';
+
+.house-listitem {
+  background: #fff;
+  width: 100%;
+  margin: 0 auto;
+  margin-top: 10px;
+  border-radius: 5px;
+}
+
+.house-rent {
+  padding: 0;
+}
+
+.public-pay-item {
+  margin-top: 20px;
+}
+
+.public-pay-item view {
+  margin-left: 0;
+}
+
+.house-rent view p {
+  margin: 10px 0;
+  display: flex;
+  font-size: 13px;
+  justify-content: space-between;
+}
+

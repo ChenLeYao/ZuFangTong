@@ -1,0 +1,4 @@
+@import '../../public/public.wxss';
+page {
+  background: #f3f2f7;
+}

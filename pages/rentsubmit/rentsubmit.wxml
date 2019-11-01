@@ -1,0 +1,68 @@
+<view>
+
+  <form>
+    <view class="house-rent">
+      <view class="house-rentitem">
+
+        <p>
+          <span>姓名</span>
+          <input type="text" placeholder="请输入姓名"></input>
+        </p>
+      </view>
+
+      <view class="house-rentitem">
+
+        <p>
+          <span>性别</span>
+          <checkbox-group>
+            <label class="checkbox">
+              男
+              <checkbox value="男" style="margin-left:10px;" checked="checked" />
+            </label>
+            <label class="checkbox">
+              女
+              <checkbox value="女" style="margin-left:10px;"  />
+            </label>
+          </checkbox-group>
+        </p>
+      </view>
+
+      <view class="house-rentitem">
+
+        <p>
+          <span>联系方式</span>
+          <input type="text" placeholder="请输入联系方式"></input>
+        </p>
+      </view>
+      <view class="house-rentitem">
+
+        <p>
+          <span>身份证号</span>
+          <input type="text" placeholder="请输入身份证号"></input>
+        </p>
+      </view>
+      <view class="house-rentitem">
+
+        <p>
+          <span>选择租期</span>
+          <view style="text-align:left;">
+     
+             <picker mode="selector" bindchange="bindChange" value="{{index}}" range="{{Mounths}}">
+              <view class="picker">
+                {{Mounths[index]}}
+              </view>
+  </picker> 
+          </view>
+        </p>
+      </view>
+    </view>
+
+    <view class="public-pay">
+      <view class="public-pay-item">
+        <view>总金额 : 1000元</view>
+        <view class="public-button" bindtap="msgSubmit">提交</view>
+      </view>
+
+    </view>
+  </form>
+</view>

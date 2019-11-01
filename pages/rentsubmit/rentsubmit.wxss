@@ -1,0 +1,7 @@
+/* pages/renter/renter.wxss */
+@import '../../public/public.wxss';
+.house-rent view p span {
+  min-width: 80px;
+  text-align: left;
+  
+}

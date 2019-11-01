@@ -1,0 +1,96 @@
+<view>
+
+  <view class="house-list">
+    <view class="house-listitem">
+      <a>
+        <view class="house-listitem-top">
+          <view>
+            <image src="../../img/main/banner2.jpg"></image>
+          </view>
+          <view>
+            <p class="black">黑龙江省南岗区中山路290号白毛小区222楼三单元201</p>
+
+            <p class="tag-red">3300元/月</p>
+            <p>押一付一 | 长租</p>
+          </view>
+
+        </view>
+
+        <view class="house-listitem-bottom">
+          <p>
+            描述 : 包物业宽带费，超值房源 小区环境好，安全系数有保障，24有保安值守，家具家电齐全，可拎包入住。床电脑桌衣柜空调热水器洗衣机宽带网络。不能养宠物，有厨房可以做饭。就在附近上班要看房提前打电话。
+          </p>
+        </view>
+      </a>
+    </view>
+
+    <view class="house-rent">
+      <view class="house-rentitem">
+        <h4>可续租</h4>
+        <view>
+          <p>
+            <label>租期</label>
+            <view>
+               <view>2019-10-10</view>至
+               <view>2020-10-10</view>
+            </view>
+            
+          </p>
+        </view>
+        <view>
+          <p>
+            <label>续租周期</label>
+            <view style="">
+              <view>2020-10-11</view>
+              至
+              <view id="Select1" style="color: #ccc;">
+                 <picker mode="date" value="{{date}}" start="2020-10-11" end="2030-10-11" bindchange="bindDateChange">
+                    <view style="margin-right:0;">
+                      {{date}}
+                    </view>
+                  </picker>
+              </view>
+            </view>
+          </p>
+        </view>
+         <view>
+        <p>
+          <label>续租天数</label>
+          <span style="text-align: right;">
+            <span>0天</span>
+          </span>
+        </p>
+        </view>
+        <view class="public-pay-item">
+          <view>总计 : 1000元</view>
+          <view class="public-button" style="background:#ff961e;">提交</view>
+        </view>
+
+      </view>
+
+
+      <view class="house-rentitem">
+        <h4>报修</h4>
+        <p>
+          <label>报修内容</label>
+          <span style="text-align: right;">
+            <textarea placeholder="请输入报修内容"></textarea>
+          </span>
+        </p>
+      </view>
+
+
+    </view>
+  </view>
+</view>
+<view class="submit-button">
+  <view>
+    <navigator url="../rentsubmit/rentsubmit">
+     提交
+    </navigator>
+   
+  </view>
+  <view>
+    不租了
+  </view>
+</view>

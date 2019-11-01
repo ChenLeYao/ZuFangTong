@@ -1,0 +1,62 @@
+<!--pages/myhousehold/myhousehold.wxml-->
+<view>
+	
+			<view class="household-list">
+				<view class="household-item">
+					<h4>住户 小明</h4>
+          <view>
+            <p>联系方式 ： <span>18814925684</span></p>
+          </view>
+					<view>
+             <p>归属房间 ： <span>黑龙江省南岗区中山路290号三单元201</span></p>
+          </view>
+          <view>
+              <p>租房日期 ： <span>2019-10-01 至 2019-11-01</span></p>
+          </view>
+          <view>
+              <p>缴费状态 ： <span>已缴费</span></p>
+          </view>
+          <view>
+            <p>需收房租 ： <span class="household-runt">2000元</span></p>
+          </view>
+				</view>
+				
+				<view class="household-item">
+					<h4>住户 小明</h4>
+          <view>
+            <p>联系方式 ： <span>18814925684</span></p>
+          </view>
+					<view>
+             <p>归属房间 ： <span>黑龙江省南岗区中山路290号三单元201</span></p>
+          </view>
+          <view>
+              <p>租房日期 ： <span>2019-10-01 至 2019-11-01</span></p>
+          </view>
+          <view>
+              <p>缴费状态 ： <span>已缴费</span></p>
+          </view>
+          <view>
+            <p>需收房租 ： <span class="household-runt">2000元</span></p>
+          </view>
+				</view>
+				
+				<view class="household-item">
+					<h4>住户 小明</h4>
+          <view>
+            <p>联系方式 ： <span>18814925684</span></p>
+          </view>
+					<view>
+             <p>归属房间 ： <span>黑龙江省南岗区中山路290号三单元201</span></p>
+          </view>
+          <view>
+              <p>租房日期 ： <span>2019-10-01 至 2019-11-01</span></p>
+          </view>
+          <view>
+              <p>缴费状态 ： <span>已缴费</span></p>
+          </view>
+          <view>
+            <p>需收房租 ： <span class="household-runt">2000元</span></p>
+          </view>
+				</view>
+			</view>
+		</view>

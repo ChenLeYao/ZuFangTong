@@ -1,0 +1,64 @@
+<view>
+  
+  <view>
+    <view class="owner-panel">
+      <view class="owner-panel-item">
+        <image src="../../img/main/avater.jpeg"></image>
+        <view>xiaoming</view>
+        <p>已出租0套房源 , 共有0套房源</p>
+      </view>
+
+    </view>
+    <view>
+      <ul class="nav-flex">
+        <li>
+           <navigator url="../myhousehold/myhousehold">
+                <image src="../../img/icon/owner.png"></image>
+                <span>我的客户</span>
+            </navigator>
+        </li>
+        <li>
+           <navigator url="../myhouse/myhouse">
+              <image src="../../img/icon/house.png"></image>
+              <span>房源管理</span>
+           </navigator>
+        </li>
+        <li>
+          <navigator url="../repair/repair">
+            <image src="../../img/icon/repair.png"></image>
+            <span>房源维修</span>
+          </navigator>
+        </li>
+      </ul>
+
+
+    </view>
+  </view>
+<view style="height:50px;" class="owner-vertical">
+
+    <swiper duration="200"  interval="3000" bindchange="currentHandle" autoplay="true" vertical="true" class="swiper-out" >
+       <block wx:for="{{contentData}}" wx:for-index="index"  wx:for-item="item">
+            <swiper-item>
+                <view style="font-size:14px;overflow:hidden;">
+                  <span>新闻</span><span> {{item}}</span>
+                </view>
+            </swiper-item>
+       </block>
+    </swiper>
+  </view>
+
+  <view class="owner-container" style="margin-top: 0;">
+
+    <swiper duration="200"  bindchange="currentHandle" class="swiper-out" indicator-dots="true">
+       <block wx:for="{{ScrollData}}" wx:for-index="index"  wx:for-item="item">
+            <swiper-item>
+                <view>
+                   <image src="{{item}}"></image>
+                </view>
+            </swiper-item>
+       </block>
+    </swiper>
+  </view>
+  
+
+</view>
