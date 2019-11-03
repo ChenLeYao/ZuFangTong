@@ -13,30 +13,30 @@ Page({
       '../../img/main/banner3.jpg',
       '../../img/main/example.jpg'
     ],
-    contentData : [
-      '上海市中心新盘首开（来电直降30万）单价3万!7' ,
+    contentData: [
+      '上海市中心新盘首开（来电直降30万）单价3万!7',
       '上海市中心新盘首开（来电直降30万）单价3万!7',
       '上海市中心新盘首开（来电直降30万）单价3万!7',
       '上海市中心新盘首开（来电直降30万）单价3万!7',
       '上海市中心新盘首开（来电直降30万）单价3万!7'
     ],
-    name: '', 
-    avatar : ''
+    name: '',
+    avatar:''
   },
 
   /**
    * 生命周期函数--监听页面加载
    */
   onLoad: function (options) {
-    var that = this ;
-     wx.getUserInfo({
-       success (res){
-            that.setData({
-              name: res.userInfo.nickName ,
-              avatar: res.userInfo.avatarUrl
-            })
-       }
-     })
+    var that = this;
+    wx.getUserInfo({
+      success(res) {
+        that.setData({
+          name: res.userInfo.nickName,
+          avatar: res.userInfo.avatarUrl
+        })
+      }
+    })
   },
 
   /**

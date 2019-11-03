@@ -1,0 +1,27 @@
+  <view class="owner-panel" wx:if="{{canIUse}}" style="margin-top:100px;">
+      <view class="owner-panel-item">
+        <image src="../../img/main/avater.jpeg" style="border:1px solid #333;margin-bottom:10px;"></image>
+        <view style="font-weight:600;margin-bottom:10px;">租房通</view>
+        <view style="font-size:13px;">找到适合你的房子</view>
+      </view>
+      <button open-type="getUserInfo"  bindgetuserinfo="bindGetUserInfo" class="login"> 
+       立即登录
+      </button>
+    </view>
+
+    <view wx:else class="changeCharactor">
+        <view>
+          <navigator url="../tenant/tenant" open-type="redirect">
+             <view class="changeCharactor-item"> <image  src="../../img/main/rent1.png"></image></view>
+              <view>我是房客</view>
+          </navigator>
+        </view>
+
+        <view>
+            <navigator url="../renter/renter" open-type="redirect">
+               <view class="changeCharactor-item"><image  src="../../img/main/rent2.png"></image></view>
+               <view>我是房东</view>
+            </navigator>
+        </view>
+
+    </view>

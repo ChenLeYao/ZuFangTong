@@ -67,7 +67,7 @@
 		</view>
 		
 		<view class="public-button-x">
-      <navigator url="../mysphere/mysphere">
+      <navigator url="../rentsubmit/rentsubmit">
 			    <a  class="button">去租房</a>
       </navigator>
 		</view>

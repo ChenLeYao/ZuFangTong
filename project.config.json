@@ -9,12 +9,21 @@
 		"postcss": true,
 		"minified": true,
 		"newFeature": true,
+		"coverView": true,
 		"autoAudits": false,
-		"coverView": true
+		"checkInvalidKey": true,
+		"checkSiteMap": true,
+		"uploadWithSourceMap": true,
+		"babelSetting": {
+			"ignore": [],
+			"disablePlugins": [],
+			"outputPath": ""
+		},
+		"uglifyFileName": true
 	},
 	"compileType": "miniprogram",
-	"libVersion": "2.0.4",
-	"appid": "wxe7d7267a00ebab68",
+	"libVersion": "2.9.1",
+	"appid": "wx516ec03b316abdd1",
 	"projectname": "wxproject",
 	"debugOptions": {
 		"hidedInDevtools": []

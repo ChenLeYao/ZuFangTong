@@ -1,5 +1,7 @@
 {
   "pages": [
+    "pages/main/main",
+    "pages/tenant/tenant",
     "pages/renter/renter",
     "pages/houseedit/houseedit",
     "pages/mysphere/mysphere",
@@ -9,29 +11,12 @@
     "pages/myhouse/myhouse",
     "pages/myhousehold/myhousehold",
     "pages/repair/repair"
-     
-  ], 
+  ],
   "window": {
     "backgroundTextStyle": "light",
     "navigationBarBackgroundColor": "#fff",
     "navigationBarTitleText": "WeChat",
     "navigationBarTextStyle": "black"
   },
-  "sitemapLocation": "sitemap.json",
-  "tabBar": {
-    "list": [
-      {
-        "pagePath": "pages/renter/renter",
-        "iconPath": "img/icon/owner.png",
-        "selectedIconPath": "img/icon/owner.png",
-        "text": "房东"
-      },
-      {
-        "pagePath": "pages/house/house",
-        "iconPath": "img/icon/house.png",
-        "selectedIconPath": "img/icon/house.png",
-        "text": "房源"
-      }
-    ]
-  }
+  "sitemapLocation": "sitemap.json"
 }

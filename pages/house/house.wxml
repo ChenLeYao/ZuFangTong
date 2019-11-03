@@ -1,17 +1,19 @@
 	<view>
 			
 			<view class="house-list">
-				<view class="house-listitem">
+
+      <block wx:for="{{houseData}}" wx:for-index="index" wx:for-item="item" > 
+          	<view class="house-listitem">
 					<a >
            <navigator url="../housedetail/housedetail">
 						<view class="house-listitem-top">
 							<view>
-								<image src="../../img/main/banner2.jpg"></image>
+								<image src="{{item.path}}"></image>
 							</view>
 							<view>
-								<p class="black"><span class="tag-orgin tag">长租</span>黑龙江省南岗区中山路290号三居室出租</p>
-								<p>押一付一 | 长租</p>
-								<p class="tag-red">3300元/月</p>
+								<p class="black"><span class="tag-orgin tag">{{item.type}}</span>{{item.title}}</p>
+								<p>押一付一 | {{item.type}}</p>
+								<p class="tag-red">{{item.price}}元/月</p>
 								
 							</view>
 
@@ -19,12 +21,13 @@
 
 						<view class="house-listitem-bottom">
 							<p>
-								描述 : 包物业宽带费，超值房源
-								小区环境好，安全系数有保障，24有保安值守，家具家电齐全，可拎包入住。床电脑桌衣柜空调热水器洗衣机宽带网络。不能养宠物，有厨房可以做饭。就在附近上班要看房提前打电话。
+								{{item.content}}
 							</p>
 						</view>
             </navigator>
 					</a>
 				</view>
+      </block>
+			
 			</view>
 		</view>

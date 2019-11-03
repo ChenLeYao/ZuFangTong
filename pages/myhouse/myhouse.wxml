@@ -25,5 +25,57 @@
         </p>
       </view>
     </view>
+
+
+     <view class="house-listitem">
+      <view class="house-listitem-top">
+        <view>
+          <image src="../../img/main/banner3.jpg"></image>
+        </view>
+        <view>
+          <p class="black">
+            <span class="tag-orgin tag">长租</span>黑龙江省南岗区中山路290号三居室出租</p>
+            <p> 3300元/月 | 押一付一</p>
+          <p class="list-bottom">
+            <span class='household-runt'>已出租</span>
+            <a class='button'><navigator url='../houseedit/houseedit'>编辑房源</navigator></a>
+          </p>
+
+        </view>
+
+      </view>
+
+      <view class="house-listitem-bottom">
+        <p>
+          描述 : 包物业宽带费，超值房源 小区环境好，安全系数有保障，24有保安值守，家具家电齐全，可拎包入住。床电脑桌衣柜空调热水器洗衣机宽带网络。不能养宠物，有厨房可以做饭。就在附近上班要看房提前打电话。
+        </p>
+      </view>
+    </view>
+
+
+     <view class="house-listitem">
+      <view class="house-listitem-top">
+        <view>
+          <image src="../../img/main/banner3.jpg"></image>
+        </view>
+        <view>
+          <p class="black">
+            <span class="tag-orgin tag">长租</span>黑龙江省南岗区中山路290号三居室出租</p>
+            <p> 3300元/月 | 押一付一</p>
+          <p class="list-bottom">
+            <span class='household-runt'>已出租</span>
+            <a class='button'><navigator url='../houseedit/houseedit'>编辑房源</navigator></a>
+          </p>
+
+        </view>
+
+      </view>
+
+      <view class="house-listitem-bottom">
+        <p>
+          描述 : 包物业宽带费，超值房源 小区环境好，安全系数有保障，24有保安值守，家具家电齐全，可拎包入住。床电脑桌衣柜空调热水器洗衣机宽带网络。不能养宠物，有厨房可以做饭。就在附近上班要看房提前打电话。
+        </p>
+      </view>
+    </view>
   </view>
 </view>

@@ -2,39 +2,36 @@
   
   <view>
     <view class="owner-panel">
+   
       <view class="owner-panel-item">
         <image src="{{avatar}}"></image>
         <view>{{name}}</view> 
-        <p>已出租0套房源 , 共有0套房源</p>
+        <p>已租0套房源</p>
+         <!-- <view class="changeRunt">
+          <image src="../../img/icon/switch.png"></image>
+          切换为房东
+        </view> -->
       </view>
-
     </view>
     <view>
       <ul class="nav-flex">
+        
         <li>
-           <navigator url="../myhousehold/myhousehold">
-                <image src="../../img/icon/owner.png"></image>
-                <span>我的客户</span>
-            </navigator>
-        </li>
-        <li>
-           <navigator url="../myhouse/myhouse">
+           <navigator url="../house/house">
               <image src="../../img/icon/house.png"></image>
-              <span>房源管理</span>
+              <span>找房源</span>
            </navigator>
         </li>
         <li>
-          <navigator url="../repair/repair">
-            <image src="../../img/icon/repair.png"></image>
-            <span>房源维修</span>
+          <navigator url="../mysphere/mysphere">
+            <image src="../../img/icon/find.png"></image>
+            <span>我的地盘</span>
           </navigator>
         </li>
       </ul>
-
-
     </view>
   </view>
-<view style="height:50px;" class="owner-vertical">
+<view style="height:50px;margin-top:10px;" class="owner-vertical">
 
     <swiper duration="200"  interval="3000" bindchange="currentHandle" autoplay="true" vertical="true" class="swiper-out" >
        <block wx:for="{{contentData}}" wx:for-index="index"  wx:for-item="item">
@@ -59,6 +56,21 @@
        </block>
     </swiper>
   </view>
-  
-
 </view>
+
+<!-- <view class="tabbar">
+    <view>
+        <navigator url="../tenant/tenant">
+          
+          <image src="../../img/icon/owner.png"></image>
+          <view style="color:green;">我的</view>
+        </navigator>
+    </view>
+    <view>
+        <navigator url="../house/house">
+          
+          <image src="../../img/icon/house.png"></image>
+          <view>找房</view>
+        </navigator>
+    </view>
+</view> -->

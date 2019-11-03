@@ -48,7 +48,7 @@
           <view style="text-align:left;">
      
              <picker mode="selector" bindchange="bindChange" value="{{index}}" range="{{Mounths}}">
-              <view class="picker">
+              <view class="picker" style="text-align:left;">
                 {{Mounths[index]}}
               </view>
   </picker> 
